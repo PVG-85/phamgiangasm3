@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    justify-content: left;
+    border: none;
+  }
+  #nav-bar .info {
+    text-align: center;
+    display: none;
+  }
+
+  .chungchi {
+    border: 50px solid rgb(9, 105, 55);
+  }
+  /* chhung chỉ giải thưởng */
+  .border-right {
+    border-right: 0px;
+  }
+  .images {
+    padding-top: 40px;
+  }
+  /* mục digital-cv */
+  .bi {
+    font-size: 40px;
+    text-align: center;
+  }
+  .digital-icon {
+    text-align: center;
+  }
+  .primary {
+    text-align: center;
+  }
+  .header {
+    border-bottom: 1px solid rgb(104, 104, 104);
+    color: blue;
+  }
+  .timeline-text-box {
+    border-bottom: 1px dashed rgba(0, 138, 143, 0.767);
+  }
+  .icon-flag-checkered {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  /* điều chỉnh buttom */
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  button:hover {
+    background-color: #cbcecf;
+  }
+}

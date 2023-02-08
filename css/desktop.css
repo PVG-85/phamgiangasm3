@@ -1,0 +1,64 @@
+@media only screen and (min-width: 992px) {
+  #nav-bar .info {
+    text-align: center;
+    display: block;
+  }
+  /* mục thông tin nghề nghiệp */
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  /*  đigital-cv */
+
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  button:hover {
+    background-color: #cbcecf;
+  }
+  .text-box {
+    margin-top: 15px;
+  }
+  .header {
+    border-bottom: 1px solid rgb(104, 104, 104);
+    color: blue;
+  }
+  .goal-box {
+    border-bottom: 1px solid rgb(170, 170, 170);
+  }
+  .goal-content-box p {
+    margin-bottom: 5px;
+  }
+  .bi {
+    font-size: 40px;
+    text-align: center;
+  }
+  .icon-flag-checkered {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .timeline-text-box {
+    border-bottom: 1px dashed rgba(0, 138, 143, 0.767);
+  }
+  #timeline {
+    height: 99%;
+  }
+  #goal,
+  #scopes,
+  #team,
+  #primary {
+    height: 100%;
+  }
+  #goal {
+    padding-bottom: 10%;
+  }
+
+  .digital-icon {
+    text-align: center;
+  }
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 992px) {
+  section > .container {
+    width: 100%;
+  }
+
+  #nav-bar .info {
+    text-align: center;
+    display: none;
+  }
+  /* mục thông tin nghề nghiệp */
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  /* mục digital-cv */
+
+  .digital-icon {
+    text-align: center;
+    justify-items: center;
+  }
+  .header {
+    border-bottom: 1px solid rgb(104, 104, 104);
+    color: blue;
+  }
+  .goal-box {
+    border-bottom: 1px solid rgb(170, 170, 170);
+  }
+  .goal-content-box p {
+    margin-bottom: 5px;
+  }
+  .bi {
+    font-size: 47px;
+    text-align: center;
+  }
+  .icon-flag-checkered {
+    font-size: 40px;
+    text-align: center;
+  }
+  .flag {
+    text-align: center;
+  }
+
+  .primary {
+    text-align: center;
+  }
+
+  .timeline-text-box p {
+    margin-bottom: 2px;
+  }
+
+  .timeline-text-box {
+    border-bottom: 1px dashed rgba(0, 138, 143, 0.767);
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  button:hover {
+    background-color: #cbcecf;
+  }
+}
